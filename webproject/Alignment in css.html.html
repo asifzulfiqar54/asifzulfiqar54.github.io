@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alignment</title>
+    <style>
+ /* box-sizing:border-box  */
+        .container{
+            background-color: darkgrey;
+        
+            width: 900px;
+            border: 3px solid purple; 
+            color:rgb(rgb(240, 182, 182));
+            margin:auto;
+
+        }
+        .item{
+            border:3px solid gray;
+            margin:12px 3px;
+            padding: 12px 3px;
+            background: rgb(225, 222, 222);
+        }
+        #fruits{
+            float: left;
+            width: 48%;
+        }
+        #computer{
+            float: left;
+            width: 48%;
+        }
+         #stationary{
+            float: right;
+            width: 48%;
+        }
+        #cars{
+            /* float:left; */
+            clear:left;
+            width:98%
+        } 
+    </style>
+   
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to my Store</h1>
+        <div id="fruits" class="item">
+            <h3>Fruits</h3>
+            <p id="fruitspara" class="para"><ul type="square">
+                <li>Banana</li>
+                <li>Apple</li>
+                <li>Pineapple</li>
+                <li>Mango</li>
+            </ul></p>
+        </div>
+        <div id="stationary" class="item">
+            <h3>stationary</h3>
+            <p id="stationarypara" class="para"><ol>
+                <li>Pencil</li>
+                <li>Books</li>
+                <li>Registers</li>
+                <li>Coverpage</li>
+            </ol></p>
+        </div>
+        <div id="cars" class="item">
+            <h3>Cars</h3>
+            <p id="carspara" class="para"><ol>
+                <li>CIVIC</li>
+                <li>HONDA</li>
+                <li>TOYOTA</li>
+                <li>LAMBERGINI</li>
+                <li>COROLLA</li>
+            </ol>
+
+        </div>
+        <div id="Computer" class="item">
+            <h3>Computer</h3>
+            <p id="Computerpara" class="para"><UL>
+                <li>Pentium 2</li>
+                <li>core i3</li>
+                <li>Pentium 5</li>
+                <li>Mackbook </li>
+            </UL></p>
+        </div>
+       
+        
+        
+    </div>
+</body>
+</html>

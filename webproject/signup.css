@@ -1,0 +1,42 @@
+     body {
+
+         display: flex;
+         align-items: center;
+         justify-content: center;
+         margin-top: 90px;
+         background-image: url(image/background\ 1.jpg) ;
+
+     }
+     img{
+        opacity: 0.5;
+     }
+    
+     
+
+     h1 {
+         color: black;
+         padding: 32px;
+     }
+
+     div {
+         border: 2px solid;
+         border-radius: 5px;
+         width: 25%;
+     }
+
+     input {
+         font-size: 20px;
+         padding: 10px;
+     }
+
+     form {
+         margin-top: 30px;
+         margin-bottom: 30px;
+     }
+
+     button {
+         width: 250px;
+         font-size: 20px;
+         height: 50px;
+         padding: 10px;
+     }

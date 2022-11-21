@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> CSS Display Property</title>
+</head>
+<style>
+    .navbar {
+        background-color: black;
+        color: white;
+        border-radius: 10px;
+        margin: 13px 20px;
+
+
+    }
+
+    .navbar li {
+        color: white;
+        background-color: black;
+        float: left;
+        list-style: none;
+        padding: 6px 20px;
+        margin: 5px -2px;
+        border-radius: 15px;
+    }
+
+    .navbar ul {
+        overflow: auto;
+    }
+
+    .navbar li a {
+        padding: 3px 3px;
+        text-decoration: none;
+        color: white;
+
+    }
+
+    .navbar li a:hover {
+        color: blue;
+    }
+
+    .navbar input {
+        float: right;
+        padding: 3px 13px;
+        margin: 8px;
+        border-radius: 7px;
+        background-color: white;
+    }
+
+    header {
+        margin: auto;
+        border: 2px solid red;
+        width: 100%;
+        background-color:#b2bbbb;;
+    }
+
+    .container {
+        width: 100%;
+        margin: auto;
+
+
+    }
+
+    img {
+        margin: auto;
+        width: 100px;
+        display: block;
+    }
+
+    h3 {
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        margin: 0px;
+        text-align: center;
+    }
+
+    .box {
+        border: 2px solid black;
+        background-color: grey;
+        margin: 7px;
+        box-sizing: border-box;
+        padding: 7px;
+        width: 500px;
+        /* height: 200px;/ */
+        display:inline-block;
+    }
+</style>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <div class="search">
+                    <input type="text" name="Search" id="search" placeholder="Search">
+                </div>
+            </ul>
+        </nav>
+    </header>
+    <header class="top">
+        <img src="image/asif zulfiqar.jpg" alt="" width="100px" height="100px">
+        <h3>Welcome to Asif's Blog</h3>
+    </header>
+    <div class="container">
+        <div class="box">
+            <h4 class="heading">Introduction</h4>
+            <p>My name is Asif Zulfiqar.My father name is Zulfiqar Ali.I am form Pakistan. I am 21 years old. I am the Student of BSCS in  University of Mianwali.</p>
+        </div>
+        <div class="box">
+            <h4 class="heading">Qualificaion</h4>
+            <p> I have passed my Matric in 2018 with 936 Marks. <br/>
+                Also I have done my FSc from jinnah School and College Kallur kot in 2020 with 818 marks.
+                <br/>Now, i am the Student of BSCS in UMW.</p>
+        </div>
+        <div class="box">
+            <h4 class="heading">Objective</h4>
+            <p>I believe in honesty, simplicity, team work and commitment. I have a very high standard
+                of quality and always strive for improvement seeking a challenging position in a growing organization
+                where acquired skills knowledge will be utilized towards continued growth and development</p>
+        </div>
+    </div>
+</body>
+
+</html>
